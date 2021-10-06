@@ -64,3 +64,4 @@ jobs:
           app-name: 'SFFComparisonTool'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_379DCA57A73E4901A549AAFEDEB73D6C }}
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
