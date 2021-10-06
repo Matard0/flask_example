@@ -21,6 +21,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.7'
+          
+      - name: Run the app
+        run: flask run
 
       - name: Create and start virtual environment
         run: |
